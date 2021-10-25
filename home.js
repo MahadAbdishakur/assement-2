@@ -53,14 +53,18 @@ console.log(greetUser("mahadabdishakur"))
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
-function canWeDeliver (zipcode){
-    if(zipcode === deliveryAreaZipCodes[]){
-        return "you are eligible for delivery"
-    }else{
-        return "sorry, we can't deliver to that adress"
-    };
+// function canWeDeliver (zipcode){
+//     for(let i = 0; zipcode === deliveryAreaZipCodes[i]; i++){
+//         return "you are eligible for delivery"
+//     }else{
+//         return "sorry, we can't deliver to that adress"
+//     };
 }
-
+if(deliveryAreaZipCodes.includes(zipcode)){
+    return "you are eligible for delivery"
+}else{
+    return "sorry, we can't deliver to that adress"
+};
 
 /* 
     Problem 2 Continued
@@ -80,7 +84,7 @@ function canWeDeliver (zipcode){
 */
 
 // CODE HERE
-
+function canWeDeliverTwo
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -95,27 +99,27 @@ function canWeDeliver (zipcode){
     Read on for more instructions.
 */
 
-const deals = [
-    {
-        title: '15% Off!', 
-        desc: 'Applied to your entire order when you spend $30 or more'
-    }, 
-    {
-        title: 'Free Kids Meal with 2 Regular Entrees', 
-        desc: '   This deal lasts until the end of March! '
-    }
-]
+// const deals = [
+//     {
+//         title: '15% Off!', 
+//         desc: 'Applied to your entire order when you spend $30 or more'
+//     }, 
+//     {
+//         title: 'Free Kids Meal with 2 Regular Entrees', 
+//         desc: '   This deal lasts until the end of March! '
+//     }
+// ]
 
-/*
-    The owner has decided to take the 15% off
-    deal down to 10%.
+// /*
+//     The owner has decided to take the 15% off
+//     deal down to 10%.
 
-    Reassign the value of the first deal's title
-    to be itself, but use the `replace` method
-    to replace the 15 with a 10.
-*/
+//     Reassign the value of the first deal's title
+//     to be itself, but use the `replace` method
+//     to replace the 15 with a 10.
+// */
 
-//CODE HERE
+// //CODE HERE
 
 
 
@@ -132,4 +136,4 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+// CODE HERE
