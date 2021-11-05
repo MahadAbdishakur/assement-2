@@ -64,9 +64,14 @@ console.log(summedPrice.reduce(ac, cr, callback));
 */
 
 //CODE HERE
+function calcFinalPrice(cartTotal,couponValue, tax){
 
+const sumsum =(tax/100 *cartTotal) + cartTotal - couponValue;
+return sumsum;
 
+};
 
+console.log(calcFinalPrice(20,8,7.5));
 //////////////////PROBLEM 3////////////////////
 /*  
     In this problem, you'll create a model for 
@@ -89,7 +94,10 @@ console.log(summedPrice.reduce(ac, cr, callback));
 
 /*
     TEXT ANSWER HERE
-
+//aleragies is just a string
+//employee is a number/interger
+//isthisgoodeats is a boolean
+//condiementsused is a array
 */
 
 /*
@@ -98,3 +106,9 @@ console.log(summedPrice.reduce(ac, cr, callback));
 */
 
 //CODE HERE
+let customer ={
+    allergiesIncluded:"nuts",
+    employees: 16,
+    isThisGoodEats: true,
+    condimentsUsed: ["mayo", "ketchup", "frosting"];
+}

@@ -31,15 +31,15 @@
 */
 
 //CODE HERE
-// const pizza = {
-//     name:"pineapple pizza",
-//     Price:12.99,
-//     category:"delicious",
-//     popularity:500000000,
-//     rating: 1000-10,
-//     tags: ["gluten-free" , "small-bite" , "flour-free", "dough-free"]
-// }
-// console.log(pizza)
+const pizza = {
+    name:"pineapple pizza",
+    Price:12.99,
+    category:"delicious",
+    popularity:500000000,
+    rating: 1000-10,
+    tags: ["gluten-free" , "small-bite" , "flour-free", "dough-free"]
+}
+console.log(pizza)
 // //////////////////PROBLEM 2////////////////////
 // /* 
 //     Let's print a few values from our pizza object.
@@ -49,7 +49,7 @@
 // */
 
 // //CODE HERE
-// console.log(pizza.popularity)
+console.log(pizza.popularity)
 
 // /*
 //     Second, log the second tag in your pizza's
@@ -59,7 +59,7 @@
 // */
 
 // //CODE HERE
-// console.log(pizza.tags[1])
+console.log(pizza.tags[1])
 
 // /*
 //     Third, destructure the price off of the
@@ -70,8 +70,8 @@
 
 // //CODE HERE
 
-// pizza.price = 12.99;
-// console.log(pizza.price)
+pizza.price = 12.99;
+console.log(pizza.price)
 // /*
 //     Fourth, and last, destructure the category
 //     property.
@@ -80,8 +80,8 @@
 // */
 
 // //CODE HERE
-// pizza.category = "awful"
-// console.log(pizza.category)
+pizza.category = "awful"
+console.log(pizza.category)
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -121,7 +121,7 @@ const foodArr = {
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter()
+const filteredFood = foodArr.filter()
 
 
 
@@ -165,7 +165,9 @@ const foodArr = {
 */
 
 //CODE HERE
+function filterByProperty(number, property, type) {
 
+}
 
 /*
     Invoke the `filterByProperty` function passing

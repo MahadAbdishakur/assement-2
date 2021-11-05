@@ -20,7 +20,15 @@
 */
 
 //CODE HERE
-
+class employee {
+    constructor(name, shift){
+    this.name = name;
+    this.shift = shift;
+    }
+    getSchedule(){
+        console.log(this.name, "works on", this.shift);
+    }
+}
 
 
 /*
@@ -84,7 +92,9 @@
 
 //CODE HERE
 
-
+class manager{
+    constructor(employee,name,)
+}
 
 /*
     Create a new instance of your class.
@@ -98,7 +108,12 @@
 */
 
 //CODE HERE
+const manager = {
+    name: "mahad",
+    shifts: "weekends only, anytime during weekends",
+    employees: ["ironman","pepper-pot","black iron man"],
 
+}
 
 /*
     Call the `getEmployees` method on the
@@ -106,7 +121,7 @@
 */
 
 //CODE HERE
-
+manager.getemployees();
 /*
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
@@ -114,6 +129,7 @@
 */
 
 //CODE HERE 
+manager.addEmployees("jake")
 
 /*
     Call the `getEmployees` method on the
@@ -122,3 +138,4 @@
 */
 
 //CODE HERE
+manager.getemployees();

@@ -59,7 +59,7 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 //     }else{
 //         return "sorry, we can't deliver to that adress"
 //     };
-}
+// }
 if(deliveryAreaZipCodes.includes(zipcode)){
     return "you are eligible for delivery"
 }else{
@@ -99,16 +99,16 @@ function canWeDeliverTwo
     Read on for more instructions.
 */
 
-// const deals = [
-//     {
-//         title: '15% Off!', 
-//         desc: 'Applied to your entire order when you spend $30 or more'
-//     }, 
-//     {
-//         title: 'Free Kids Meal with 2 Regular Entrees', 
-//         desc: '   This deal lasts until the end of March! '
-//     }
-// ]
+const deals = [
+    {
+        title: '15% Off!', 
+        desc: 'Applied to your entire order when you spend $30 or more'
+    }, 
+    {
+        title: 'Free Kids Meal with 2 Regular Entrees', 
+        desc: '   This deal lasts until the end of March! '
+    }
+]
 
 // /*
 //     The owner has decided to take the 15% off
@@ -120,7 +120,7 @@ function canWeDeliverTwo
 // */
 
 // //CODE HERE
-
+deals[0].title = deals[0].title.replace("15", "10")
 
 
 /*
@@ -137,3 +137,4 @@ function canWeDeliverTwo
 */
 
 // CODE HERE
+deals[1].desc = deals[1].replace("March","April").trim();
