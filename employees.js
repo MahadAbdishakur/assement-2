@@ -92,9 +92,16 @@ class employee {
 
 //CODE HERE
 
-class manager{
-    constructor(employee,name,)
-}
+class Manager extends employee{
+    constructor(employee,name,shift){
+        super(name, shift)
+        this.employee = [employee]
+    }
+
+    getemployees(){
+        console.log(`${this.name} works under ${employee}`)
+    }
+};
 
 /*
     Create a new instance of your class.
@@ -108,12 +115,7 @@ class manager{
 */
 
 //CODE HERE
-const manager = {
-    name: "mahad",
-    shifts: "weekends only, anytime during weekends",
-    employees: ["ironman","pepper-pot","black iron man"],
-
-}
+var manager2 = new Manager("mahad", "weekends only", "ironman", "pepper-pot", "war machine");
 
 /*
     Call the `getEmployees` method on the
@@ -121,7 +123,7 @@ const manager = {
 */
 
 //CODE HERE
-manager.getemployees();
+manager2.getemployees();
 /*
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
@@ -129,7 +131,7 @@ manager.getemployees();
 */
 
 //CODE HERE 
-manager.addEmployees("jake")
+manager2.addEmployees("jake")
 
 /*
     Call the `getEmployees` method on the
@@ -138,4 +140,4 @@ manager.addEmployees("jake")
 */
 
 //CODE HERE
-manager.getemployees();
+manager2.getemployees();

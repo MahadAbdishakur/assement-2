@@ -84,7 +84,13 @@ if(deliveryAreaZipCodes.includes(zipcode)){
 */
 
 // CODE HERE
-function canWeDeliverTwo
+const canWeDeliver =(zipcode) =>{
+if(deliveryAreaZipCodes.includes(zipcode)){
+    return "you are eligible for delivery"
+}else{
+    return "sorry, we can't deliver to that address"
+}};
+console.log(canWeDeliver());
 
 //////////////////PROBLEM 3////////////////////
 /* 

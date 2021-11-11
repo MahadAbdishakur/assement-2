@@ -165,7 +165,15 @@ const filteredFood = foodArr.filter()
 */
 
 //CODE HERE
-function filterByProperty(number, property, type) {
+const filterByProperty = (number, property, type) => {
+    const filteredFood = foodArr.filter((Element)=>{
+        if(type === "above"){
+            return Element[property] >= number;
+        }else if(type === "below"){
+            return Element[property] <= number;
+        }
+        return filteredFood;
+    })
 
 }
 
@@ -177,3 +185,4 @@ function filterByProperty(number, property, type) {
 */
 
 //CODE HERE
+filterByProperty(18, "rattings", "above");

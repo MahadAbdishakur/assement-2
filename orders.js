@@ -59,7 +59,7 @@ updateStatus(mynewstatus){
 */
 
 //CODE HERE
-let firstTicket =new ticket1("")
+let firstTicket =new ticket1("7:03pm", "pineapple pizza", "575");
 
 /*
     Call the `updateStatus` method on
@@ -68,3 +68,5 @@ let firstTicket =new ticket1("")
 */
 
 //CODE HERE
+firstTicket.updateStatus("cooking")
+console.log(firstTicket);
